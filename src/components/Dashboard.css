@@ -1,0 +1,36 @@
+.dashboard-container {
+  padding: 2rem;
+  background-color: #0e0e2c;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  color: #00ffcc;
+}
+
+.dashboard-section {
+  margin-top: 2rem;
+  background-color: #1c1c3a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+.categories {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.categories span {
+  background-color: #00ffcc;
+  color: #0e0e2c;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}

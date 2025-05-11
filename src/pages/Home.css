@@ -1,0 +1,25 @@
+.home-container {
+  background-color: #0d0d0d;
+  background-image: url('../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Optional animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-container > * {
+  animation: fadeIn 0.7s ease-in-out;
+}

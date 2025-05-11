@@ -1,0 +1,23 @@
+.games-container {
+  background: #0d0d0d url('../assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.games-title {
+  font-size: 2.8rem;
+  color: #00ffff;
+  text-shadow: 0 0 12px #00ffff;
+  margin-bottom: 50px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
